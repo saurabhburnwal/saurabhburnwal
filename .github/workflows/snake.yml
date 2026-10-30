@@ -15,13 +15,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - uses: actions/checkout@v4
+
       - name: Generate snake SVGs from the contribution graph
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+        run: python3 .github/scripts/contribution_snake.py --user ${{ github.repository_owner }} --out dist
 
       - name: Publish SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v4
