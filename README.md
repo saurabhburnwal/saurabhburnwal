@@ -41,7 +41,7 @@ class SaurabhBurnwal:
   <tr>
     <td align="center"><b>AI / ML</b></td>
     <td>
-      <img src="https://skillicons.dev/icons?i=sklearn" alt="scikit-learn"><br>
+      <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn">
       <img src="https://img.shields.io/badge/LightGBM-2E7D32?style=flat-square" alt="LightGBM">
       <img src="https://img.shields.io/badge/XGBoost-189FDD?style=flat-square" alt="XGBoost">
       <img src="https://img.shields.io/badge/SHAP-FF0D57?style=flat-square" alt="SHAP">
