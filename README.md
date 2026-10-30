@@ -17,7 +17,7 @@ I'm an MCA (AI) student at CHRIST (Deemed to be University), Bengaluru, who buil
 
 - 🧠 Machine learning, NLP and computer vision with **scikit-learn, LightGBM, XGBoost, SHAP and YOLO**
 - 🌐 Full-stack web apps and REST APIs with **React, Node.js, Express, FastAPI and PostgreSQL**
-- ☁️ Multi-service deployments on **Vercel, Render, Supabase and Docker**
+- ☁️ Multi-service deployments on **Vercel, Render and Supabase**, and Dockerized data pipelines with **Apache Airflow**
 - 🔐 A cybersecurity background, including a responsibly disclosed medium-severity vulnerability via HackerOne
 - 📍 Bengaluru, India
 
@@ -118,7 +118,7 @@ I'm an MCA (AI) student at CHRIST (Deemed to be University), Bengaluru, who buil
 - 🥉 **3rd Place, Coding &amp; Debugging**: SHELLS 2026, Kristu Jayanti (Deemed to be University) · *Feb 2026*
 - 🏆 Member of the CHRIST MCA team that won the **Overall Trophy** at SHELLS 2026
 
-## Certifications
+## Selected certifications
 
 - AWS Academy Graduate: Cloud Foundations, Amazon Web Services · *Jul 2026*
 - Data Manipulation with pandas, DataCamp · *Aug 2025*
