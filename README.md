@@ -87,30 +87,35 @@ Smart travel planning within a fixed budget: optimized, day-wise roadmaps across
 <a href="https://time2-travel.vercel.app/"><img src="https://img.shields.io/badge/Live%20demo-Open-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live demo"></a>
 <a href="https://github.com/saurabhburnwal/Time2Travel"><img src="https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source code"></a>
 
+### 🌊 Littora
+
+<a href="https://www.littora.app/"><img src="assets/littora-preview.gif" alt="Littora preview: guest dashboard, waste detection page and settings" width="100%"></a>
+
+AI-powered beach-waste detection and coastal-pollution monitoring.
+
+- Integrates **3 YOLO model variants** (YOLOv11m by default) through a FastAPI AI service and a Node.js backend
+- Classifies waste in beach photos, scores pollution severity and tracks trends, pollution maps and cleanup recommendations
+- PostgreSQL schema normalized to **5NF**, with row-level-security RBAC on Supabase
+
+<a href="https://www.littora.app/"><img src="https://img.shields.io/badge/Live%20demo-Open-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live demo"></a>
+<a href="https://github.com/saurabhburnwal/Littora"><img src="https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source code"></a>
+
 ### 🧩 More projects
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://www.littora.app/">Littora</a></h4>
-      <p>Integrates <b>3 YOLO model variants</b> through FastAPI and Node.js, on a PostgreSQL schema normalized to <b>5NF</b> with row-level-security RBAC.</p>
-      <p><code>React</code> <code>Node.js</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>Supabase</code></p>
-      <a href="https://www.littora.app/">Live</a> · <a href="https://github.com/saurabhburnwal/Littora">Code</a>
-    </td>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h4><a href="https://github.com/saurabhburnwal/crisis-nlp-triage">Crisis NLP: Disaster Tweet Triage</a></h4>
       <p>Sorts <b>76K+ crisis tweets</b> into High, Medium and Low priority with a 5-fold stacking ensemble, at <b>86.73% precision</b>.</p>
       <p><code>Python</code> <code>scikit-learn</code> <code>XGBoost</code> <code>SHAP</code></p>
       <a href="https://github.com/saurabhburnwal/crisis-nlp-triage">Code</a>
     </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h4>Academic ETL Pipeline</h4>
       <p>A <b>7-task Apache Airflow</b> pipeline with raw, staging and reporting layers, data-quality checks and 3 KPI tables.</p>
       <p><code>Airflow</code> <code>Python</code> <code>MySQL</code> <code>Docker</code></p>
     </td>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h4><a href="https://github.com/saurabhburnwal/go-farm-frontend">GoFarm</a></h4>
       <p>Fixed bugs in the React frontend for crop-cost prediction and government-scheme recommendations.</p>
       <p><code>React</code> <code>FastAPI</code> <code>Python</code></p>
