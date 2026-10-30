@@ -7,6 +7,8 @@
   <a href="mailto:saurabhburnwal00@gmail.com"><img src="https://img.shields.io/badge/Gmail-Say%20hello-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://github.com/saurabhburnwal?tab=followers"><img src="https://img.shields.io/github/followers/saurabhburnwal?label=Followers&style=for-the-badge&logo=github&color=1e1b4b" alt="GitHub followers"></a>
   <img src="https://komarev.com/ghpvc/?username=saurabhburnwal&label=Profile%20views&color=0e7490&style=for-the-badge" alt="Profile views">
+  <!-- Invisible 1x1 pixel: loading the profile starts waking the free-tier Render demo. -->
+  <img src="https://credit-risk-intelligence-platform-2k4b.onrender.com/wake.svg" width="1" height="1" alt="">
 </p>
 
 ## 👨‍💻 About me
@@ -69,7 +71,7 @@ A decision-support workspace for credit underwriting, built on a cost-sensitive 
 
 - **0.7717 ROC-AUC** and **0.2667 PR-AUC** on a 61.5K holdout set, with **SHAP** for model interpretation
 - Underwriting simulator, credit-policy risk bands and a Groq-powered natural-language-to-SQL **"talk to data"** assistant
-- Deployed on Render's free tier, so the first load can take 30–60 seconds while the service wakes up
+- Deployed on Render's free tier, so the first load can take a minute or two while the service wakes up
 
 <a href="https://credit-risk-intelligence-platform-2k4b.onrender.com"><img src="https://img.shields.io/badge/Live%20demo-Open-46E3B7?style=for-the-badge&logo=render&logoColor=black" alt="Live demo"></a>
 <a href="https://github.com/saurabhburnwal/credit-risk-intelligence-platform"><img src="https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source code"></a>
