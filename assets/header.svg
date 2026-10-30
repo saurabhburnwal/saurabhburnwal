@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-label="Saurabh Burnwal, AI/ML and Full-Stack Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1120"/>
+      <stop offset="0.55" stop-color="#1e1b4b"/>
+      <stop offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowViolet" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.40"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nameFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a5f3fc"/>
+      <stop offset="0.5" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#fde68a"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#ffffff" opacity="0.07"/>
+    </pattern>
+    <clipPath id="card">
+      <rect width="1000" height="280" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .glow { animation: drift 11s ease-in-out infinite alternate; }
+    .glow.b { animation-duration: 15s; animation-direction: alternate-reverse; }
+    @keyframes drift {
+      from { transform: translate(-40px, -12px); }
+      to   { transform: translate(50px, 18px); }
+    }
+    .wave-a { animation: slide 16s linear infinite; }
+    .wave-b { animation: slide 26s linear infinite reverse; }
+    @keyframes slide {
+      from { transform: translateX(0); }
+      to   { transform: translateX(-1000px); }
+    }
+    .star { animation: twinkle 4s ease-in-out infinite; }
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.15; }
+      50%      { opacity: 0.9; }
+    }
+    .hello { animation: rise 0.9s ease-out both; }
+    .name  { animation: rise 0.9s 0.25s ease-out both; }
+    .rule  { animation: grow 1.2s 0.6s ease-out both; transform-origin: 500px 172px; }
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(14px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes grow {
+      from { transform: scaleX(0); }
+      to   { transform: scaleX(1); }
+    }
+    .role { opacity: 0; animation: role 12s infinite; }
+    .role.r2 { animation-delay: 3s; }
+    .role.r3 { animation-delay: 6s; }
+    .role.r4 { animation-delay: 9s; }
+    @keyframes role {
+      0%       { opacity: 0; transform: translateY(8px); }
+      4%, 21%  { opacity: 1; transform: translateY(0); }
+      25%, 100% { opacity: 0; transform: translateY(-8px); }
+    }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1000" height="280" fill="url(#bg)"/>
+    <rect width="1000" height="280" fill="url(#dots)"/>
+
+    <ellipse class="glow" cx="190" cy="80" rx="260" ry="170" fill="url(#glowCyan)"/>
+    <ellipse class="glow b" cx="820" cy="210" rx="280" ry="180" fill="url(#glowViolet)"/>
+
+    <g fill="#e0f2fe">
+      <circle class="star" cx="72" cy="46" r="1.6"/>
+      <circle class="star" cx="160" cy="196" r="1.2" style="animation-delay:1.1s"/>
+      <circle class="star" cx="250" cy="34" r="1.4" style="animation-delay:2.3s"/>
+      <circle class="star" cx="318" cy="128" r="1.1" style="animation-delay:0.6s"/>
+      <circle class="star" cx="404" cy="58" r="1.3" style="animation-delay:3.1s"/>
+      <circle class="star" cx="598" cy="40" r="1.5" style="animation-delay:1.7s"/>
+      <circle class="star" cx="680" cy="118" r="1.1" style="animation-delay:2.8s"/>
+      <circle class="star" cx="752" cy="52" r="1.4" style="animation-delay:0.3s"/>
+      <circle class="star" cx="866" cy="92" r="1.2" style="animation-delay:2.0s"/>
+      <circle class="star" cx="934" cy="36" r="1.6" style="animation-delay:3.5s"/>
+      <circle class="star" cx="44" cy="150" r="1.2" style="animation-delay:1.4s"/>
+      <circle class="star" cx="962" cy="160" r="1.3" style="animation-delay:0.9s"/>
+    </g>
+
+    <g class="wave-b">
+      <path fill="#a78bfa" fill-opacity="0.16" d="M0 238 Q 125 262 250 238 T 500 238 T 750 238 T 1000 238 T 1250 238 T 1500 238 T 1750 238 T 2000 238 V 280 H 0 Z"/>
+    </g>
+    <g class="wave-a">
+      <path fill="#22d3ee" fill-opacity="0.14" d="M0 222 Q 125 192 250 222 T 500 222 T 750 222 T 1000 222 T 1250 222 T 1500 222 T 1750 222 T 2000 222 V 280 H 0 Z"/>
+    </g>
+
+    <text class="hello" x="500" y="78" text-anchor="middle" font-size="19" letter-spacing="4" fill="#cbd5e1">HI THERE, I'M</text>
+    <text class="name" x="500" y="142" text-anchor="middle" font-size="58" font-weight="700" fill="url(#nameFill)">Saurabh Burnwal</text>
+    <rect class="rule" x="440" y="168" width="120" height="3" rx="1.5" fill="#f59e0b"/>
+
+    <g font-size="21" fill="#67e8f9" text-anchor="middle">
+      <text class="role r1" x="500" y="208">AI/ML &amp; Full-Stack Developer</text>
+      <text class="role r2" x="500" y="208">MCA (Artificial Intelligence) · CHRIST University</text>
+      <text class="role r3" x="500" y="208">Python · React · Node.js · FastAPI · PostgreSQL</text>
+      <text class="role r4" x="500" y="208">Machine Learning · NLP · Computer Vision</text>
+    </g>
+  </g>
+</svg>
