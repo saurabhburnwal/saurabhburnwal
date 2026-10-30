@@ -69,7 +69,7 @@ A decision-support workspace for credit underwriting, built on a cost-sensitive 
 
 - **0.7717 ROC-AUC** and **0.2667 PR-AUC** on a 61.5K holdout set, with **SHAP** for model interpretation
 - Underwriting simulator, credit-policy risk bands and a Groq-powered natural-language-to-SQL **"talk to data"** assistant
-- Deployed on Render
+- Deployed on Render's free tier, so the first load can take 30–60 seconds while the service wakes up
 
 <a href="https://credit-risk-intelligence-platform-2k4b.onrender.com"><img src="https://img.shields.io/badge/Live%20demo-Open-46E3B7?style=for-the-badge&logo=render&logoColor=black" alt="Live demo"></a>
 <a href="https://github.com/saurabhburnwal/credit-risk-intelligence-platform"><img src="https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source code"></a>
