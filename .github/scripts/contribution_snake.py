@@ -30,7 +30,7 @@ LEGEND_RIGHT = 58.4  # from the grid's right edge to the last legend square
 
 PAD_LEFT = 1
 PAD_TOP = 1
-PAD_RIGHT = 14  # room for a month label that starts on the last column
+PAD_RIGHT = 18  # room for a month label that starts on the last column
 
 # Snake segments, head first: (size, corner radius)
 SEGMENTS = [(11.7, 3.7), (10.0, 3.3), (8.8, 2.9), (8.0, 2.7)]
@@ -153,10 +153,18 @@ def plan_moves(cells):
 
     # Come back to the starting pose so the loop is seamless: reach the cell
     # behind the tail's home without crossing home, then slide into place.
+    # A dead end (the lone Sunday square of a new week) forces the snake to
+    # turn back over itself, so fall back to ignoring the body.
+    def route(goal, avoid=frozenset()):
+        path = find_path(cells, body, goal, avoid) or find_path(cells, body, goal, avoid, respect_body=False)
+        if path is None:
+            sys.exit("The snake cannot get back to its starting pose")
+        return path
+
     lane = frozenset(home[:3])
     if body[0] in lane:
-        advance(find_path(cells, body, lambda cell: cell not in lane and cell != home[3]))
-    advance(find_path(cells, body, lambda cell: cell == home[3], avoid=lane))
+        advance(route(lambda cell: cell not in lane and cell != home[3]))
+    advance(route(lambda cell: cell == home[3], avoid=lane))
     advance(home[2::-1])
     return home, moves
 
