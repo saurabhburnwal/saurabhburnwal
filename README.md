@@ -11,12 +11,12 @@
 
 ## 👨‍💻 About me
 
-I'm an MCA (AI) student at CHRIST (Deemed to be University), Bengaluru, who builds machine-learning systems and the full-stack apps that put them in front of people.
+I'm an MCA student at CHRIST (Deemed to be University), Bengaluru, who builds machine-learning systems and the full-stack apps that put them in front of people.
 
 ```python
 class SaurabhBurnwal:
     role       = "AI/ML & Full-Stack Developer"
-    education  = "MCA (Artificial Intelligence) @ CHRIST University, Bengaluru"
+    education  = "MCA @ CHRIST University, Bengaluru"
     location   = "Bengaluru, India"
     focus      = ["Machine Learning", "NLP", "Computer Vision", "Full-Stack Web"]
     stack      = ["Python", "React", "Node.js", "FastAPI", "PostgreSQL", "LightGBM"]
@@ -145,7 +145,7 @@ At Vault-Tec I built a Python/Scapy network scanner (ARP discovery, ICMP checks,
 
 | Degree | Institution | Years | CGPA |
 | --- | --- | --- | --- |
-| **MCA (Artificial Intelligence)** | CHRIST (Deemed to be University), Bengaluru | 2025 – 2027 | 8.63 / 10 |
+| **MCA** | CHRIST (Deemed to be University), Bengaluru | 2025 – 2027 | 8.63 / 10 |
 | **BCA** | SRM Institute of Science and Technology, Chennai | 2022 – 2025 | 8.90 / 10 |
 
 <details>
